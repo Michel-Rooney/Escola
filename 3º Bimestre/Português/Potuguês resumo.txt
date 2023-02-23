@@ -1,0 +1,513 @@
+## POLISSEMIA ##
+    https://www.todamateria.com.br/polissemia/
+
+    A Polissemia representa a multiplicidade de significados de uma palavra. Do grego polis, significa "muitos", enquanto sema refere-se ao "significado".
+
+    Portanto, um termo polissêmico é aquele que pode apresentar significados distintos de acordo com o contexto. Apesar disso, eles têm a mesma etimologia e se relacionam em termos de ideia.
+
+    Exemplo 1:
+        1. A letra da música do Chico Buarque é incrível.
+        2. A letra daquele aluno é inteligível
+        3. Meu nome começa com a letra D.
+    Logo, constatamos que a palavra "letra" é um termo polissêmico, visto que abarca significados distintos dependendo de sua utilização.
+
+    Assim, na frase 1, a palavra é utilizada como "música, canção". Na 2 significa "caligrafia". Já na oração 3 indica a "letra do alfabeto". Apesar dos muitos significados, todos se relacionam com a ideia de escrita.
+
+    Exemplo 2:
+        1. A boca da garrafa de cerveja está com ferrugem.
+        2. O seu João continua mandando bocas para a vizinha do 1.º D.
+        3. E que tal se você fechasse a boca?
+    Na oração 1 a boca da garrafa é a abertura do recipiente, enquanto na 2, tem o sentido de provocação. Apenas na oração 3 é feita referência à parte do corpo. Todos, nos entanto, se relacionam com a função da boca: abertura, fala.
+
+
+    # Extra 01:
+        Ambiguidade é variedade de interpretação que um discurso pode conter.
+
+        Exemplo: Ninguém conseguia se aproximar do porco do tio, tão bravo ele era.
+
+        Essa oração pode ser entendida com ironia, na medida em que pode ser interpretada como uma ofensa ao tio. Ao mesmo tempo, o tio pode realmente ter um suíno que é bravo.
+
+    # Extra 02:
+        Há outros termos que apesar das semelhanças gráficas e na pronúncia, apresentam significados diferentes. Trata-se dos homônimos perfeitos.
+
+        A diferença entre os termos polissêmicos e os homônimos é que a sua origem etimológica, além da ideia que expressam, são diferentes.
+
+        Exemplos:
+            1. Estava uma fila enorme no banco por causa do dia do pagamento dos trabalhadores.
+            2. Joana sentou no banco da praça para terminar de ler seu livro.
+            3. Se você não tiver dinheiro, eu banco nossa viagem ao exterior.
+        No exemplo acima, podemos constatar que o termo "banco" é homônimo. A mesma palavra significa: instituição financeira (oração 1); assento (oração 2) e arcar com as despesas, pagar (oração 3).
+
+
+
+
+
+## ARTIGO ##
+    https://www.todamateria.com.br/artigo-definido-e-indefinido/
+
+    Artigos são palavras que vêm antes dos substantivos e servem para especificar ou generalizar o seu sentido.
+
+    # Artigo definido:
+        Os artigos definidos (o, a, os, as) definem ou individualizam, de forma precisa, os substantivos, que podem ser uma pessoa, objeto ou lugar.
+
+        Exemplos:
+            . O garoto foi jantar na casa dos pais.
+            . Ganhamos a bicicleta que esperávamos.
+            . Luísa aproveitou para rever os amigos.
+            . As meninas foram viajar.
+        Em todos os exemplos, podemos notar a precisão de tais pessoas ou objetos pelo emprego correto do artigo definido. Isso porque ele determina de maneira exata o substantivo em questão: o garoto, a bicicleta, os amigos e as meninas.
+
+        Assim, fica claro que o artigo definido indica, de modo particular, o substantivo já conhecido. Note que estes estão presentes no texto ou no pensamento do locutor (emissor, autor) ou do interlocutor (receptor, ouvinte).
+        
+
+
+    # Artigo indefinido:
+        Os artigos indefinidos (um, uma, uns, umas) determinam de maneira vaga, indeterminada ou imprecisa, uma pessoa, objeto ou lugar ao qual não se fez menção anterior no texto.
+
+        Exemplos:
+            . Um dia iremos nos encontrar.
+            . Uma certa tarde, saímos para caminhar.
+            . Joana convidou para a festa uns amigos estrangeiros.
+            . Comprei umas camisas para seu aniversário.
+        Note que em todos os exemplos acima, não está definindo qual objeto, pessoa ou lugar. Nos dois primeiros exemplos, não está identificado “qual o dia” ou “qual a tarde” em que o evento ocorre.
+
+        Da mesma maneira, Joana não especifica “quais amigos” ela convidará para a festa. Por fim, “umas camisas” corresponde a uma ideia vaga de “quais camisas” são essas.
+
+        Cuidado para não confundir o artigo indefinido “um” com o numeral “um”, pois o numeral é uma palavra utilizada para indicar quantidade.
+
+    # Emprego dos artigos
+        1. Os artigos sempre devem concordar com o substantivo em gênero (masculino e feminino) e número (singular e plural). Exemplos:
+            . o garoto - os garotos.
+            . a menina - as meninas.
+            . um mês - uns meses.
+            . uma mesa – umas mesas.
+
+        2. Os artigos podem ser combinados com preposições.
+            . ao/aos (a + o/os). Exemplo: O texto é dedicado aos pais.
+            . à/às (a + a/as). Exemplo: Vou à escola todas as manhãs.
+            . da/das (de + a/as). Exemplo: Ganhamos muitos presentes da Inês.
+            . do/dos (de + o/os). Exemplo: Os móveis eram dos nossos avós.
+            . na/nas (em + a/as). Exemplo: O colar está nas coisas da Sônia.
+            . no/nos (em + o/os). Exemplo: Encontramos o anel no corredor.
+            . num/nuns (em + um/uns). Exemplo: Hoje estamos num congresso.
+            . numa/numas (em + uma/umas). Exemplo: Almocei numa lanchonete essa semana.
+            . dum/duns (de + um/uns). Exemplo: Os cadernos encontrados são dum pesquisador.
+            . duma/dumas (de + uma/umas). Exemplo: Preciso dumas blusas para sair.
+
+        3. De acordo com sua posição na frase, os artigos podem transformar qualquer tipo de palavra em substantivo, independentemente de sua classe gramatical. Exemplos:
+            . O andar de Elisa é muito sensual. (neste caso, o verbo “andar” foi transformado em substantivo).
+            . O vermelho de seus olhos indicou sua tristeza. (neste caso, o adjetivo “vermelho” foi transformado em substantivo).
+
+        4. Os artigos definidos podem ser empregados com o intuito de indicar um conjunto de seres ou uma espécie inteira. Dessa forma, o artigo é empregado no singular, entretanto, faz referência a uma pluralidade de seres. Exemplos:
+            . A alma é imortal. (refere-se ao conjunto de almas).
+            . A goiaba é muito rica em vitamina C. (faz referência a todas as goiabas).
+
+        5. Na construção das frases a utilização dos artigos indefinidos deve ser moderada, de modo que o excesso de seu uso no texto provoca um “inchaço” ou uma “redundância” desnecessária, tornando-o, deselegante e “pesado”. Exemplos:
+            . Ter (uma) boa educação é fundamental.
+            . São detentores de (um) bom conhecimento.
+
+        6. Para uma adequada coesão textual, antes de pronome de sentido indefinido, utiliza-se as palavras como “tal, certo (a), outro (a)”. Exemplos:
+            . Encontrei (uma) certa medalha na cômoda.
+            . Natália não encontrou (um) outro casaco.
+            
+        7. O artigo indefinido é usado como recurso expressivo para reforçar enunciados exclamativos. Exemplos:
+            . Foi um presente te encontrar!
+            . A festa estava uma delícia!
+
+
+
+
+
+## HUMANISNO ##
+    https://www.todamateria.com.br/o-que-e-o-humanismo/
+    https://www.todamateria.com.br/auto-da-barca-do-inferno/
+    https://www.todamateria.com.br/humanismo/
+    https://www.todamateria.com.br/caracteristicas-do-humanismo/
+    https://www.todamateria.com.br/humanismo-renascentista/
+    https://www.todamateria.com.br/a-linguagem-do-humanismo/
+
+
+    O Humanismo foi um movimento filosófico e literário que ocorreu nos séculos XIV e XV, na Península Itálica.
+
+    Inicialmente, o termo era empregado para designar os estudos de humanidades, ou seja: literatura clássica, história, dialética, retórica, aritmética, filosofia natural e línguas modernas.
+
+    Mais tarde, recebe este nome porque representa a ideia que o homem estaria no centro de tudo (antropocêntrica), ao contrário da mentalidade medieval, que era teocêntrica.
+
+    Aliás, os humanistas rejeitavam o período medieval e chamaram esta época de “Idade das Trevas”, enquanto eles representavam o “Renascimento”.
+
+    Na literatura, destacaram a temática mitológica, o hedonismo e a natureza como um lugar de harmonia.
+
+    Os filósofos humanistas valorizaram o ser humano, a investigação através de métodos científicos (empíricos) e as ideias da Antiguidade Clássica.
+
+
+    # Características do Humanismo
+        O Humanismo buscava na razão a explicação para os fenômenos do mundo.
+
+        Para o humanista, estudioso da Antiguidade Clássica, somente com a ordem era possível chegar à harmonia. Este princípio servia tanto para a arte como para a política.
+
+        Desta maneira, surge o antropocentrismo, onde o homem e não Deus estaria no centro do universo.
+
+        Não significa que a religião foi abandonada, nem deixou de fazer parte da vida dos seres humanos. No entanto, o homem se vê agora como protagonista da história, dotado de inteligência e vontade, e capaz de mudar seu destino.
+
+        Assim, o homem do renascimento não aceita as verdades pré-concebidas, pois tudo deve ser provado pelo meio da experimentação (empirismo).
+
+        Um exemplo são as novas ciências surgidas nesta época:
+
+        Filologia – estudo da origem das palavras
+        Historiografia – estudo da escrita da história
+        Anatomia – estudo do funcionamento do corpo humano
+
+
+        As principais características do humanismo nas artes e na filosofia são:
+        Antropocentrismo: conceito filosófico que ressalta a importância do homem como um ser agente dotado de inteligência e de capacidade crítica. Avesso ao teocentrismo (deus como centro do mundo), esse conceito permitiu descentralizar o conhecimento que antes era propriedade da Igreja.
+
+        Racionalismo: corrente filosófica associada à razão humana que foca na produção de conhecimentos sobre o ser humano e o mundo, contestando o espiritualismo.
+
+        Cientificismo: associado ao racionalismo, esse conceito coloca a ciência em um lugar de destaque. Através do método científico, ele fomenta as descobertas desse campo a fim de entender os fenômenos naturais.
+
+        Antiguidade clássica: os artistas humanistas foram inspirados pelos estudos realizados anteriormente por pensadores clássicos gregos e romanos, sobretudo pela literatura e mitologia greco-romana.
+
+        Valorização do homem: inspirado nos modelos clássicos greco-romanos, houve a valorização do corpo humano e das emoções do homem. Assim, as artes humanistas focavam nos detalhes que revelassem as expressões e desejos.
+
+        Ideal de beleza e perfeição: aliado ao conceito de valorização dos modelos clássicos, nesse período buscou-se atingir a perfeição das formas humanas por meio das proporções equilibradas e da beleza perfeita.
+
+
+    # Auto da Barca Do inferno
+        Gil Vicente (1465-1536) foi considerado o “pai do teatro português” e sua obra aborda temas religiosos e humanos. Apesar de possuir uma visão religiosa cristã e moralista, seus textos também apresentam críticas sociais.
+
+        Esse autor escreveu diversas peças teatrais chamadas de Autos e Farsas. Os Autos focavam em temas humanos e divinos, e as Farsas estavam relacionadas com os costumes da sociedade portuguesa da época.
+
+        O Auto da Barca do Inferno ou Auto da Moralidade é uma obra de dramaturgia que foi escrita em 1517 pelo escritor humanista português Gil Vicente.
+
+        Essa peça é uma das mais emblemáticas do dramaturgo, considerado o “pai do teatro português”.
+
+        Foi encenada em 1531 e faz parte da Trilogia das Barcas, ao lado do Auto da Barca do Purgatório e o Auto da Barca da Glória.
+
+        Lembre-se que “auto” é um gênero que surgiu na Idade Média. São textos curtos de temática cômica e geralmente formados por um único ato.
+
+
+        # Resumo e Análise da Obra
+            Por meio da presença de dois barqueiros, o Anjo e o Diabo, eles recebem as almas dos passageiros que passam para o outro mundo.
+
+            A cena passa-se num porto e portanto, um dos barcos vai em direção ao céu, e outro para o inferno.
+
+            A maioria dos personagens vão para a barca do inferno. Durante suas vidas não seguiram o caminho de Deus, foram trapaceiros, avarentos, interesseiros e cometeram diversos pecados.
+
+            Por outro lado, quem seguia os preceitos de Deus e viveu de maneira simples vai para a barca de Deus. São eles: Joane, o parvo, e os quatro cavaleiros.
+
+            O Auto da Barca do Inferno é um grande clássico da literatura portuguesa. Ele possui diversas sátiras envolvendo a moralidade.
+
+            Pelo destino das almas de alguns personagens, a obra satiriza o juízo final do catolicismo, além da sociedade portuguesa do século XVI
+
+            A alegoria do juízo final é um recurso utilizado pelo dramaturgo através de seus personagens (diabo e anjo).
+
+            Além disso, cada personagem possui uma simbologia associada à falsidade, ambição, corrupção, avareza, mentira, hipocrisia, etc.
+
+            Confira a obra na íntegra, fazendo o download do PDF aqui: Auto da Barca do Inferno.
+
+            Personagens e seus Pecados: 
+                Diabo: capitão da barca do Inferno.
+                Anjo: capitão da barca do Céu.
+                Fidalgo: tirano e representante da nobreza. Teve uma vida voltada para o luxo e vai para o inferno.
+                Onzeneiro: homem ganancioso, agiota e usurário. Por ter sido um grande avarento na vida ele vai para o inferno.
+                Joane, o parvo: personagem inocente que teve uma vida simples. Portanto, ele vai para o céu.
+                Sapateiro: homem trabalhador, mas que roubou e enganou seus clientes. Assim, ele vai para o inferno.
+                Frade: representante da Igreja, que vai para o inferno. Isso porque ele tinha uma amante, Florença, e não seguiu os princípios do catolicismo.
+                Brígida Vaz: alcoviteira condenada por bruxaria e prostituição que vai para o inferno.
+                Judeu: personagem que foi recusado pelo Diabo e pelo Anjo por não ser adepto ao Cristianismo. Por fim, ele vai para o inferno.
+                Corregedor e Procurador: representantes da lei. Ambos vão para o inferno, pois foram acusados de serem manipuladores e utilizarem das leis e da justiça para o bem e interesses pessoais.
+                Cavaleiros: grupo de quatro homens que lutaram para disseminar o cristianismo em vida e portanto, são absolvidos dos pecados que cometeram e vão para o céu.
+
+
+    # Características:
+        . Período de trabsição entre Idade Média e Renascimento.
+        . Valorização do ser humano.
+        . Surgimento da burguesia.
+        . Ênfase no Antropocentrismo: o homem no centro do universo.
+        . Valorização das emoções humanos.
+        . Afastamento de dogmas
+        . Valorização de debates e opiniões divergentes.
+        . Valorização do racionalismo e do método científico (empirismo)
+
+    # Principais autores = Europa
+        . Francesco Petrarca
+        . Giovannu Boccaccio
+        . Michel de Montaigne
+        . Thomas More
+        . Gil Vicente
+
+    # Humanismo em Portugal
+        -> Poesia palaciana
+            - Produzida dentro dos palácios
+            - Escrita por nobres que retratavam os usos e costumes da corte.
+        Fernão de Lopes
+            - Um dos primeiros escritoes humanista em Portugal
+            - Cronusta-mor da Torre do Tombo (1418)
+
+    # Gêneros mais explorados
+        . Teatro popular
+        . Poesia palaciana
+        . Crônica histórica
+
+    # Gil Vicente (1465 - 1536)
+        "o pai do teatro português" -  autos e farsas
+            farsas (conteudo social)
+            autos (persas de religiosa moral)
+        
+        - Auto da Barca do Inferno (1516)
+        - Farsa de Inês Pereira (1523)
+
+    
+
+
+
+## CLASSICISMO ##
+    # Principais Características
+        . universalismo
+        . cultura clássica
+        . pedomínio da razão
+        . ideal platônico de beleza
+        . rigor formal na estética
+        . hedonismo
+        . Retorno à cultura greco-romana
+        . individualismo
+        . racionalismo
+        . Gênero Épico {
+            Narração de ações nobres praticadas por heróis representivos da história de um determinado povo.
+        } - Lusíadas
+
+        . Classicismo é o nome dado a literatura do renascimento
+        . Antropocentrismo
+        . Igreja Católica passa a ser questionada
+
+        -> Ênfase cada vez maior no ser humano em seus sentimentos, dores, etc
+        -> Homem questionador
+
+
+        - Humanismo: valorização do homem - Antropocentrismo.
+        - Racionalismo: valorização da capacidade de raciocinar.
+        - Racionalização: reflexão sobre mundo e sobre lugar do homem no mundo
+        - Valorização da cultura grega (paganismo): regaste e valorização da cultura grega
+        - Hedonismo: busca pela satisfação dos desejos humanos.
+        - Carpe diem: fruição do dia, porque a vida é passageira.
+        - Eferridade do tempo:constatação de que a vida passa rápido.
+        - Neoplatonismo amor sensual e, ao mesmo, tempo platônico.
+        - Equilíbrio formal: utilização de poemas de formas fixas, rimas e métricas regulares.
+        - Doce estilo novo: gosto pelo verso decassílabo (era seta agora é dez)
+        - Personificação: elementos da natureza personificados comoo deuses gregos - o amor, o tempo, etc
+        - Figuras predominantes:paradoxo, antitese e Personificação
+
+
+        # Luis Vaz de Camões
+            . Foi o autor mais importante do período classicista em Portugal.
+            . Sua obra é dividida em épica lírica e dramátcica.
+            . Gênero lírico: sonetos de lírica complexa, com versos decassílabos sobre a efemeridade da vida e amores
+
+    
+    # Representantes de destaque
+        Luíz Vaz de Camões (escritor dos Lusíadas (1572))
+
+        Lusíadas (Viagem em torno do Cabo da Boa Esperança)
+        Morte de Inês de Castro (Rainha q so se tornou dps de morta)
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## QUINHENTISMO ##
+    - Refere-se ao momento do "descobrimento" do Brasil.
+    - Textos escritos pelos portugueses sobre o Brasil e enviados para Portugal.
+    ATENÇÃO: o Quinhentismo não é uma escola literária
+    - Literatura informativa: caráter descritivo e informativo
+    - período de: 1500 - 1601
+    - viajantes, cronistas, padres jesuítas
+    - Pero Vaz de Caminha: carta sobre o descobrimento do Brasil
+
+    - Letatura cataquética
+        Padre José de Anchieta
+
+
+

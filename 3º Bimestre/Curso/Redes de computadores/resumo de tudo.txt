@@ -1,0 +1,13 @@
+HUB:
+    Em poucas palavras, um hub é um repetidor de rede que atua na camada física (Camada 1) do modelo OSI. Ou seja, utiliza apenas a infraestrutura física existente (cabeamento) para enviar e receber dados de todos os dispositivos conectados.
+    O problema começa quando o equipamento começa a ser mais exigido: Ao montar uma rede local com dispositivos conectados através de um hub, qualquer mensagem enviada por um dispositivo será transmitida para todos os dispositivos conectados.
+    Dito isso, problemas de congestionamento são inevitáveis. Por consequência, conclui-se que quanto maior for o número de dispositivos conectados na mesma rede, mais ineficiente se tornará o hub.
+
+SWITCH:
+    O switch pode ser considerado a evolução natural do hub. Trata-se de um comutador de dados para redes parecido fisicamente com o hub, mas com recursos capazes de identificar e monitorar o tráfego de rede.
+
+
+
+
+    rede: estabelecer, mater e terminar uma conexão de rede
+    sessao: uma comunicação de pc q vai ter inicio, meio e fim, na comunicação de dados em pc

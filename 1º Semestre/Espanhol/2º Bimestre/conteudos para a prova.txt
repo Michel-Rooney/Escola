@@ -1,0 +1,172 @@
+Subject Pronouns
+I 		– eu
+You 		– você
+He/she/it	– ele/ela/neutro
+We 		– nós
+You 		– vocês
+They 	– eles
+
+				} o de cima é antes do verbo e o de baixo é dps do verbo
+
+Subject Object
+I		- Me
+You		- You
+He		- Him
+She		- Her
+It		- It
+We		- Us
+You		- You
+They		- Them
+
+Possessive adjective / Possesive pronoun
+My	Mine		- meu(s), minha(s)
+Your	Yours	- seu/teu(s), sua/tua(s)
+His	His		- seu(s), sua(s) dele
+Her	Hers		- seu(s), sua(s), dela
+Its	Its		- seu(s), sua(s) dele, dela
+Our	Ours		- nosso(s), nossa(s)
+Your	Yours	- seus, suas, de vocês
+Their Theirs	- seu(s), sua(s), dele(s), dela(s)
+
+adjectives - depois dele vem um substantivo (my car, your family)
+pronoun - depois dele não vem substantivo (it's mine) - Só fala que é dele, não especifica o que está falando
+
+Reflexive pronouns
+Myself	 	- A mim mesmo, -me	 
+Yourself	 	- A ti, a você mesmo(a), -te,-se	 
+Himself	 	- A si, a ele mesmo, -se	
+Herself	 	- A si, a ela mesma, -se
+Itself	 	- A si mesmo(a), -se	 
+Ourselves	 	- A nós mesmos(as), -nos	 
+Yourselves	- A vós, a vocês mesmos(as), 
+Themselves	- A si, a eles mesmos, a elas mesmas, -se
+
+ele indica a ele mesmo
+
+
+
+
+
+
+
+
+
+
+familia = {
+    'avô' : 'abuelo',
+    'avó' : 'abuela',
+    'cunhado' : 'cuñado',
+    'cunhada' : 'cuñada',
+    'enteado' : 'hijastro',
+    'enteada' : 'hijastra',
+    'esposo' : 'esposo',
+    'esposa' : 'esposa',
+    'filho' : 'hijo',
+    'filha' : 'hija',
+    'irmão' : 'hermano',
+    'irmã' : 'hermana',
+    'marido' : 'marido',
+    'mulher' : 'mujer',
+    'neto' : 'nieto',
+    'neta' : 'nieta',
+    'noivo' : 'novio',
+    'noiva' : 'novia',
+    'pai' : 'padre',
+    'mãe' : 'madre',
+    'papai' : 'papá',
+    'mamãe' : 'mamá',
+    'padastro' : 'padrastro',
+    'madastra' : 'madrastra',
+    'primo' : 'primo',
+    'prima' : 'prima',
+    'sobrinho' : 'sobrino',
+    'sobrinha' : 'sobrina',
+    'sogro' : 'suegro',
+    'sogra' : 'suegra',
+    'tio' : 'tío',
+    'tia' : 'tía',
+    'tataravó' : 'tatarabuela',
+    'tataravô' : 'tatarabuelo',
+    'bisavó' : 'bisabuela',
+    'bisavô' : 'bisabuelo',
+    'madrinha' : 'madrina',
+    'padrinho' : 'padrino',
+    'genro' : 'yerno',
+
+    'casado' : 'casado',
+    'casada' : 'casada',
+    'separado' : 'separado',
+    'separada' : 'separada',
+    'solteiro' : 'soltero',
+    'solteira' : 'soltera',
+    'viúvo' : 'viudo',
+    'viúva' : 'viuda'
+}
+
+partes_do_corpo = {
+    'cabeça' : 'cabeza',
+    'cabello' : 'cabelo',
+    'pelo' : 'cabelo',
+    'ceja' : 'sobrancelha',
+    'ojo' : 'olho',
+    'oreja' : 'orelha',
+    'nariz' : 'nariz',
+    'mejilla' : 'bochecha',
+    'cachete' : 'bochecha',
+    'frente' : 'testa',
+    'diente' : 'dente',
+    'labio' : 'lábio',
+    'lengua' : 'língua',
+    'mentón' : 'queixo',
+    'barbilla' : 'queixo',
+    'hombro' : 'ombro',
+    'mano' : 'mão',
+    'brazo' : 'braço',
+    'dedo' : 'dedo',
+    'codo' : 'cotovelo',
+    'cuello' : 'pescoço',
+    'pecho' : 'peito',
+    'pezón' : 'mamilo',
+    'estómago' : 'estômago',
+    'panza' : 'estômago',
+    'barriga' : 'estômago',
+    'ombligo' : 'umbigo',
+    'cintura' : 'cintura',
+    'cadera' : 'quadril',
+    'muslo' : 'coxa',
+    'rodilla' : 'joelho',
+    'pierna' : 'perna',
+    'tobillo' : 'tornozelo',
+    'pie' : 'pé',
+
+}
+
+
+
+
+
+
+
+Exames médicos ; busca pra saber se a pessoa não possui nenhuma problema cardíaco ou respiratório .
+
+Anamnese ; Entrevista , para traçar um perfil (objetivo , hábitos alimentares, sono , uso de medicamentos) 
+
+Cineantropometria - medidas (peso , altura , imc , % gordura , %massa muscular etc ) 
+
+Testes de capacidades físicas - nível de flexibilidade (para evitar lesões ) 
+Nível de força (controlar a carga ) 
+Nível de resistência (controlar o volume do treino )
+
+
+O Genótipo refere-se ao conjunto de genes de uma pessoa. Por sua vez, o fenótipo corresponde às características físicas, comportamentais e morfológicas.
+uma pessoa pode nascer branca(genotipo) e escurecer a pele com o sol (fenotipo)
+
+
+Ectomorfo
+As pessoas com o biotipo corporal ectomorfo apresentam corpo mais magro e esguio, ombros estreitos e membros compridos. Além disso, as mulheres apresentam quadril mais estreito e seios com  pouco músculo e pouca gordura.
+
+Endomorfo
+As pessoas com biotipo corporal endomorfo apresentam baixa estatura, corpo mais arredondado e mais largo, de forma que as mulheres com esse biotipo apresentam quadril mais largo, associado ao formato de uma pera, e maior quantidade de gordura acumulada. 
+
+Mesomorfo
+As pessoas com biotipo corporal mesomorfo possuem o corpo magro e musculoso, mesmo que não pratiquem atividade física com frequência. Além disso, as pessoas com esse biotipo possuem o tronco mais desenvolvido, pouca gordura abdominal, cintura mais fina e metabolismo mais rápido, além de ganhar massa muscular com facilidade. 

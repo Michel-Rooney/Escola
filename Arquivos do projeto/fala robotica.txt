@@ -1,0 +1,84 @@
+1° se apresenta
+	Bom dia, eu sou o Michel Rooney e serei eu que irar aprensentar a parte tecnica no projeto
+
+
+2°da uma introdução, tipo, como a Camila falou o nosso projeto serve p isso isso é aquilo 
+	... 
+
+3°para o nosso projeto ser elaborado foi necessário algumas ferramentas dentre elas o ESP32 e o ECG AD8232
+	
+
+4° O ESP32 ESP32 é uma série de microcontroladores de baixo custo e baixo consumo de energia. Também é um sistema-em-um-chip com microcontrolador integrado, Wi-Fi e Bluetooth.(modifica e fala com as tuas palavras) e diz que ele possibilitou a comunicação com o ecg
+5° explica o ecg Sensor de ECG AD8232 
+Este sensor é uma placa econômica usada para medir a atividade elétrica do coração. Essa atividade elétrica pode ser mapeada como um ECG ou eletrocardiograma e gerada como uma leitura analógica. Os ECGs podem ser extremamente ruidosos, o Monitor de frequência cardíaca com eletrodo único AD8232 atua como um amplificador operacional para ajudar a obter um sinal claro dos intervalos PR e QT facilmente. aí explica o ngc de pqrst
+6° explica k django, tu sabe mais q eu, então se vira
+7°finaliza, ou vê com o Luis se quer mais alguma coisa
+
+
+
+
+
+
+
+Bom dia, eu sou o Michel Rooney e serei eu que irar aprensentar a parte tecnica no projeto,
+para o nosso projeto ser elaborado foi necessário algumas ferramentas dentre elas o ESP32, ECG AD8232 e o framework django
+
+O ECG é uma placa econômica usada para medir a atividade elétrica do coração. Essa atividade elétrica 
+pode ser mapeada como um ECG ou eletrocardiograma e gerada como uma leitura analógica. Os ECGs podem ser 
+extremamente ruidosos, o Monitor de frequência cardíaca com eletrodo único AD8232 atua como um amplificador 
+operacional para ajudar a obter um sinal claro dos intervalos PR e QT facilmente. Com ele pegamos os dados
+da medição do coração 
+
+ESP32 é uma série de microcontroladores de baixo custo e baixo consumo de energia. Também é um sistema-em-um-chip 
+com microcontrolador integrado, Wi-Fi. Com os dados coletados do ECG, enviamos para o ESP, para comunicação com django
+
+O framework Django, onde o mesmo é um framework web, open source baseando em python,
+sua arquitetura é MVT, model (modelo de dados, ela faz a comunicação com o banco de dados), view (ela trabalho com
+as requisições respodendo e retornando), template (onde fica a interface que será visivel ao usuario)
+
+FIM.
+
+
+
+
+
+
+
+
+eu sou o michel rooney, sou do 1 ano redes de computadores, e irei falar um pouco sobrea parte tecnica do projeto, como citado,
+utilizamos o ESP32, o ECG AD8232 e o framework django, o ECG, é uma placa econômica usada para medir a atividade elétrica do coração.
+gerando uma leitura analpgoica, os ecgs podem ser extremamente ruidosos, assim utilizasse o eletrodo AD8232 pra amplificar e obter um sinal mais claro,
+o ESP32, é uma serioe de microcontroladores, é um sistema-em-um-chipe com microntrolador integrado, wi-fi. 
+
+
+
+, com os dados coletados do ecg, enviamos pra o esp, para a comunicação django
+
+
+
+
+
+
+
+
+
+
+
+começamos com uma pesquisa na comunidade 
+ferramentas
+divisão da equipe
+mostrar o codigo
+
+
+
+
+
+
+
+pesquisa
+materias usados
+codigo arduino (eletrodos)
+site (cripografia)
+codigo
+junção
+divisão das equipes

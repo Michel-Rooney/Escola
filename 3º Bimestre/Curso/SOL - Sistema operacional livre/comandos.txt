@@ -1,0 +1,71 @@
+man : apresenta paginas do manual sobre um determinado comando
+info : mostra a documentação no formato de info
+
+rm : é utilizado para remover arquivos ou diretorios. Você precisa ter a permisão de gravação no diretorio onde o arquivo esta local
+    -f          : força a remoção dos arquivos sem perguntar ao usuário
+    -r, -R      : Remove um diretório e todo seu conteudo
+    -i          : Pergunta antes de remover
+    -d, -dir    : remove diretórios vazios
+touch
+cp
+mv
+
+
+
+
+
+
+man
+info
+mv - capaz de mover arquivos da origem
+rm - capaz de remover arquvios e diretórios
+mkdir - cirar somente diretorios
+rmdir - caapaz de remover arquivos e diretórios contendo arquivos
+ls - capaz de listar arquivos
+	ls -a
+cd - acessar o diretório filho - diretório depedente
+cd .. retorna ao diretório pai.
+cd -- volta ár o diretório raiz ~ -/home
+dpkg
+nano
+cat 
+touch - capaz de criar arquivos
+nano - extensão desse formato - formato de edição de texto - abrir a própria extensão
+
+sudo - torna aquela execução como usuário administrado
+sudo su - garante ao meu usuário a permanência em seu estado Administrador (CTRL + D (Sair))
+dpkg - A ferramenta instala, constrói, remove, configura e recupera informações para pacotes Debian. O comando funciona com pacotes em formato .deb. 
+nano - é ideal para fazer pequenas alterações em arquivos de configuração existentes ou para escrever arquivos de texto simples curtos.
+
+
+-> renaem
+-> pipe
+-> gedit, nano, vim, vi
+-> adduser userdel
+-> dpkg apt 
+-> hostname, arp, ifconfig
+-> arch, isdev, ispci, isub, df
+-> 
+-> 
+-> 
+
+
+
+### PESQUISA ###
+-> Find e Locate 
+-> Chown e Chmod
+-> Netstate e Traceroute
+-> Reboot, shutdown, power off
+
+
+Find    : Procura por arquivos e diretórios diretamente no sistema de arquivos. Dependendo do tamanho do sistema de arquivos, esse comando pode ser muito demorado.
+Locate  : Pode ser usado para encontrar arquivos no sistema através de uma base de dados que ele mantém, o resultado é instantâneo. Porém arquivos adicionados recentemente ao disco podem não estar na base de dados ainda.
+Chown   : Este comando permite alterar o nome do dono e/ou do grupo de arquivos.
+Chmod   : Recurso utilizado para trabalhar com permissões de arquivos do sistema Linux, cujos arquivos têm um sistema de sinalizadores. Esses são usados para indicar quais são as autorizações que cada usuário tem para editar ou ler determinado arquivo.
+Netstate : Exibe as conexões de rede, tabela de rotas, estatísticas das interfaces etc. Ele foi elegantemente substituído pelo comando “ss“.
+Traceroute : A função do programa é exibir a rota completa para mapear a transferência de um arquivo.
+Reboot : Comando é usado para reiniciar ou reinicializar o sistema.
+Shutdown : O comando shutdown pode reinicializar, parar ou desligar.
+Power off : O comando shutdown é utilizado para desligar ou reiniciar o sistema com horários determinados.
+
+

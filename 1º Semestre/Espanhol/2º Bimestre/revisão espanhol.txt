@@ -1,0 +1,110 @@
+familia = {
+    'avô' : 'abuelo',
+    'avó' : 'abuela',
+    'cunhado' : 'cuñado',
+    'cunhada' : 'cuñada',
+    'enteado' : 'hijastro',
+    'enteada' : 'hijastra',
+    'esposo' : 'esposo',
+    'esposa' : 'esposa',
+    'filho' : 'hijo',
+    'filha' : 'hija',
+    'irmão' : 'hermano',
+    'irmã' : 'hermana',
+    'marido' : 'marido',
+    'mulher' : 'mujer',
+    'neto' : 'nieto',
+    'neta' : 'nieta',
+    'noivo' : 'novio',
+    'noiva' : 'novia',
+    'pai' : 'padre',
+    'mãe' : 'madre',
+    'papai' : 'papá',
+    'mamãe' : 'mamá',
+    'padastro' : 'padrastro',
+    'madastra' : 'madrastra',
+    'primo' : 'primo',
+    'prima' : 'prima',
+    'sobrinho' : 'sobrino',
+    'sobrinha' : 'sobrina',
+    'sogro' : 'suegro',
+    'sogra' : 'suegra',
+    'tio' : 'tío',
+    'tia' : 'tía',
+    'tataravó' : 'tatarabuela',
+    'tataravô' : 'tatarabuelo',
+    'bisavó' : 'bisabuela',
+    'bisavô' : 'bisabuelo',
+    'madrinha' : 'madrina',
+    'padrinho' : 'padrino',
+    'genro' : 'yerno',
+
+    'casado' : 'casado',
+    'casada' : 'casada',
+    'separado' : 'separado',
+    'separada' : 'separada',
+    'solteiro' : 'soltero',
+    'solteira' : 'soltera',
+    'viúvo' : 'viudo',
+    'viúva' : 'viuda'
+}
+
+partes_do_corpo = {
+    'cabeça' : 'cabeza',
+    'cabello' : 'cabelo',
+    'pelo' : 'cabelo',
+    'ceja' : 'sobrancelha',
+    'ojo' : 'olho',
+    'oreja' : 'orelha',
+    'nariz' : 'nariz',
+    'mejilla' : 'bochecha',
+    'cachete' : 'bochecha',
+    'frente' : 'testa',
+    'diente' : 'dente',
+    'labio' : 'lábio',
+    'lengua' : 'língua',
+    'mentón' : 'queixo',
+    'barbilla' : 'queixo',
+    'hombro' : 'ombro',
+    'mano' : 'mão',
+    'brazo' : 'braço',
+    'dedo' : 'dedo',
+    'codo' : 'cotovelo',
+    'cuello' : 'pescoço',
+    'pecho' : 'peito',
+    'pezón' : 'mamilo',
+    'estómago' : 'estômago',
+    'panza' : 'estômago',
+    'barriga' : 'estômago',
+    'ombligo' : 'umbigo',
+    'cintura' : 'cintura',
+    'cadera' : 'quadril',
+    'muslo' : 'coxa',
+    'rodilla' : 'joelho',
+    'pierna' : 'perna',
+    'tobillo' : 'tornozelo',
+    'pie' : 'pé',
+
+}
+
+for k, v in familia.items():
+    resposta = str(input(f'{k}: '))
+    while True:
+        if resposta == v:
+            print('certa resposta\n')
+            break
+        else:
+            print(f'\n{v}')
+            resposta = str(input(f'{k}: '))
+
+print('\n')
+
+for k, v in partes_do_corpo.items():
+    resposta = str(input(f'{v}: '))
+    while True:
+        if resposta == k:
+            print('certa resposta\n')
+            break
+        else:
+            print(f'\n{k}')
+            resposta = str(input(f'{v}: '))

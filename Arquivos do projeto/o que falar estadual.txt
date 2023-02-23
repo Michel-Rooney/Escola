@@ -1,0 +1,22 @@
+
+
+começamos com uma pesquisa na comunidade 
+ferramentas
+divisão da equipe
+mostrar o codigo
+
+
+
+pesquisa
+materias usados
+codigo arduino (eletrodos)
+site (cripografia)
+codigo
+junção
+divisão das equipes
+
+
+
+
+
+Para a elaboração do nosso projeto foram feitas 2 pesquisas, uma direcionada a aceitação da comunidade sobre a confiança em relação ao nosso projeto, nessa pesquisa tivemos um retorno de 89,4% que confiam em seus dados ao projeto. A outra pesquisa realizada foi no material utilizado, sendo o ESP32 um microcontrolador wifi usado pra web server, o ECG AD8232 usado pra pegar a frequencia cardiaca do coração utilizando os eletrodos (mostrar eletrodos) pra uma melhora captação dos dados. Aqui podemos ver uma parte do código arduino, sua setagem de portas, coletas, entre outros. E por fim o framework django, que é um framework python, open source que utilizamos pra criação do site, arquitetura MVT (model comunicação com o banco de dados, view tratamento das requisições e template parte visual do site (mostra o codigo)) (formularios criptografados com CSRF TOKEN e SHA256), e usamos o banco de dados já integrado DBSQLITE (q é um banco bem simplorio).  Aqui podemos ver um pouco do site e suas paginas. Assim com essas ferramentas fizemos a sua junção, sendo o ESP32 o intermediario entre a coleta dos batimentos e o registramento no banco do site. Por fim a equipe foi dividida em 3, uma sendo responsável pelos cadernos de campo, outra pra coletas dos batimentos com o ECG e uma voltada ao site, tanto hardware, esp32, quando software Django.
