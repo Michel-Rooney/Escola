@@ -1,0 +1,25 @@
+Conteúdo de Revisão 
+Infraestrutura de Rede
+Conceitos e definição da IEEE 802 e suas variações (802.1; 802.3 e 802.11);
+Conceitos de LLC E MAC.
+Protocolo DHCP. 
+Tipos de Cabos 
+Conceitos De Hub, Switches e Roteadores.
+Comandos para criação de VLAN.
+
+Protocolos de Redes
+Estrutura da IETF e como ocorre a criação de uma RFC. 
+Conceitos do Protocolo PPP
+Conceitos do Protocolo ARP
+Conceitos avanços do protocolo IPV4. (Cálculo de sub rede).
+Conceitos Básicos IPV6
+
+Sistemas Operacionais Proprietários 
+História da Família Windows (Atenção as características de cada versão e comparação com as demais)
+Instalação do Sistema Operacional Windows 
+Partição do Disco Durante a Formatação 
+Remoção correta do disco removível
+Instalação de Drivers e erros como drivers de som, drivers de rede.
+Funções Básicas do Windows como Painel de Controle, Gerenciador de Tarefas.
+Criação de Contas de Usuário, perfil do administrador em comparação a uma conta padrão. 
+Criação de Partição Pós Instalação.

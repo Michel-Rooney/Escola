@@ -1,0 +1,46 @@
+MS-DOS:
+	Win 1.0 
+		- Não pode ser chamado de S.O, era somente uma interface gráfica
+
+	Win 2.0
+		- Ele dependia menos do mouse, tinha atalhos (CTRL + C/V)
+
+	Win 3.x
+		- Ele vira um S.O (Gerenciador de programas, arquivos, multimídia)
+		
+	Win 95:
+		- Menu iniciar
+		- Barra de tarefa
+		- Plug & Play
+
+	Win 98:
+		- Dispositivo familiar, não só para trabalho
+		- Internet, navegador de Internet
+		- Obrigava a frabicante vim com uma interface de rede
+
+
+Windows NT:
+	Win XP:
+		- Muito leve
+
+	Win Vista:
+		- Controle de usuários
+		- Muito pesado, avançando demais para o hardware da época
+
+	Win 7:
+		- Começou a usar SSD
+		- Processadores com mais núcleos, não mais só 1
+		- Pegar duas chanelas e colocar uma do lado da outra (NO VISTA PAROU)
+
+	Win 8:
+		- Feito para ser Mobile
+
+	Win 10/11:
+		Windows defender
+
+
+
+# Sistema e característica
+# Coisas do sistemas e arquivos do usuário
+
+# História do windows, fazer um pendrive e instalar
