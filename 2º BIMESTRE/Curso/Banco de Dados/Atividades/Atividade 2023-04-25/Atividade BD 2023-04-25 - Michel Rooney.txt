@@ -1,0 +1,24 @@
+TIPO_SERVICO (codigo: INT(10), descrição: VARCHAR(1000), valor_m2: INT(1000), duracao_m2: DATETIME(19), tipo_servico_empregado: INT(10))
+PK: codigo
+FK: tipo_servico_empregado referencia EMPREGADO
+
+EMPREGADO (matricula: INT(10), nome: VARCHAR(45))
+PK: matricula
+
+ITEM_PEDIDO (metragem: DECIMAL(1000,900), item_pedido_tipo_servico: INT(10), item_pedido_empregado: INT(10), tipo_pedido_pedido_servico: INT(10))
+FK: item_pedido_tipo_servico referencia TIPO_SERVICO
+FK: item_pedido_empregado referencia EMPREGADO
+FK: tipo_pedido_pedido_servico referencia PEDIDO_DE_SERVICO
+
+PEDIDO_DE_SERVICO (numero: INT(10), data_abertura: DATETIME(19), data_realizacao: DATETIME(19), local: VARCHAR(45), pedido_servico_cliente: INT(10))
+PK: numero
+FK: pedido_servico_cliente referencia CLIENTE
+
+CLIENTE (codigo: INT(10), telefone: VARCHAR(14), endereco: VARCHAR(45))
+PK: codigo
+
+PESSOA JURIDICA (cnpj: VARCHAR(18), razao_social: VARCHAR(100), pessoa_juridica_cliente: INT(10))
+FK: pessoa_juridica_cliente referencia CLIENTE
+
+PESSOA_FISICA (cpf: VARCHAR(14), nome: VARCHAR(45), pessoa_fisica_cliente: INT(10))
+FK: pessoa_fisica_cliente referencia CLIENTE
