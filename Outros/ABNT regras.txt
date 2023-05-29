@@ -1,0 +1,9 @@
+Formato do papel: Utilize papel branco, formato A4 (21 cm x 29,7 cm).
+Margens: As margens devem ter 3 cm para o lado esquerdo e superior, e 2 cm para o lado direito e inferior.
+Fonte: Utilize fonte Times New Roman ou Arial, tamanho 12.
+Espaçamento: Utilize espaçamento 1,5 entre as linhas do texto.
+Parágrafos: Inicie cada parágrafo com recuo de 1,25 cm.
+Título: O título deve ser centralizado, em negrito e com letra maiúscula.
+Seções e subseções: Utilize numeração progressiva para as seções e subseções, destacando-as em negrito. Por exemplo: 1. Introdução, 1.1. Objetivos, 1.2. Justificativa, etc.
+Capa e folha de rosto: A ABNT não exige uma capa específica para trabalhos escolares, mas você pode incluir uma capa com o nome da instituição, título do trabalho e outros dados relevantes.
+Sumário: Caso o trabalho seja mais extenso, é recomendado incluir um sumário logo após a capa, listando as seções e subseções com suas respectivas páginas.
