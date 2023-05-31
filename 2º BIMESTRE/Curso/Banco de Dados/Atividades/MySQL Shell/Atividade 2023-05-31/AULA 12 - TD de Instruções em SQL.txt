@@ -1,0 +1,104 @@
+CREATE DATABASE vendas;
+USE vendas;
+
+CREATE TABLE cliente(
+    -> cpf VARCHAR(14) NOT NULL,
+    -> nome VARCHAR(45),
+    -> endereco VARCHAR(45),
+    -> PRIMARY KEY(cpf));
+
+CREATE TABLE pedido(
+    -> numero INT(10) AUTO_INCREMENT NOT NULL,
+    -> data_pedido DATE,
+    -> status VARCHAR(1),
+    -> endereco_entrega VARCHAR(45),
+    -> cpf VARCHAR(14) NOT NULL,
+    -> PRIMARY KEY(numero),
+    -> FOREIGN KEY(cpf) REFERENCES cliente(cpf));
+
+CREATE TABLE categoria(
+    -> codigo INT(10) AUTO_INCREMENT NOT NULL,
+    -> nome VARCHAR(45),
+    -> PRIMARY KEY(codigo));
+
+CREATE TABLE produto(
+    -> codigo INT(10) AUTO_INCREMENT NOT NULL,
+    -> nome VARCHAR(45),
+    -> preco DECIMAL(8,2),
+    -> codigo_categoria INT(10) NOT NULL,
+    -> vendido BOOLEAN,
+    -> PRIMARY KEY(codigo),
+    -> FOREIGN KEY(codigo_categoria) REFERENCES categoria(codigo));
+
+CREATE TABLE item_pedido(
+    -> numero INT(10) NOT NULL,
+    -> codigo INT(10) NOT NULL,
+    -> quantidade INT(10),
+    -> FOREIGN KEY(numero) REFERENCES pedido(numero),
+    -> FOREIGN KEY(codigo) REFERENCES produto(codigo));
+
+
+
+
+1-  SELECT cliente.cpf, cliente.nome, pedido.numero
+    -> FROM cliente
+    -> JOIN pedido ON cliente.cpf = pedido.cpf
+    -> ORDER BY cliente.cpf;
+
+2- SELECT numero, data_pedido FROM pedido WHERE data_pedido >= '2013-01-01' AND data_pedido <= '2013-04-01';
+
+3- SELECT cliente.cpf, cliente.nome, pedido.numero, pedido.data_pedido, item_pedido.quantidade, produto.preco, (item_pedido.quantidade * produto.preco) AS preco_total
+    FROM cliente
+    JOIN pedido ON cliente.cpf = pedido.cpf
+    JOIN item_pedido ON pedido.numero = item_pedido.numero
+    JOIN produto ON item_pedido.codigo = produto.codigo
+    WHERE pedido.status = 'A'
+    ORDER BY cliente.nome;
+
+4- SELECT codigo, nome, preco FROM produto WHERE vendido=0;
+5- SELECT codigo, nome, preco FROM produto WHERE vendido=1;
+
+6- SELECT DISTINCT cliente.cpf, cliente.nome, cliente.endereco
+    -> FROM cliente
+    -> JOIN pedido ON cliente.cpf = pedido.cpf
+    -> WHERE pedido.data_pedido < '2013-01-01' OR pedido.data_pedido > '2013-12-31'
+    -> ORDER BY cliente.nome;
+
+
+    SELECT cliente.cpf, cliente.nome, cliente.endereco
+    -> FROM cliente
+    -> JOIN pedido ON cliente.cpf = pedido.cpf
+    -> JOIN item_pedido ON pedido.numero = item_pedido.numero
+    -> WHERE item_pedido.quantidade > 5
+    -> ORDER BY cliente.nome;
+
+7- SELECT MAX(item_pedido.quantidade * produto.preco) AS maior_venda
+    -> FROM pedido
+    -> JOIN item_pedido ON pedido.numero = item_pedido.numero
+    -> JOIN produto ON item_pedido.codigo = produto.codigo
+    -> WHERE YEAR(pedido.data_pedido) = 2010;
+
+8- SELECT AVG(preco) as media
+    -> FROM produto
+    -> JOIN pedido ON produto.codigo = pedido.numero
+    -> WHERE pedido.status='A';
+
+
+09- SELECT MAX(item_pedido.quantidade * produto.preco) AS maior_venda,
+    ->     MIN(item_pedido.quantidade * produto.preco) AS menor_venda,
+    ->     AVG(item_pedido.quantidade * produto.preco) AS preco_medio
+    -> FROM pedido
+    -> JOIN item_pedido ON pedido.numero = item_pedido.numero
+    -> JOIN produto ON item_pedido.codigo = produto.codigo
+    -> WHERE YEAR(pedido.data_pedido) = 2010
+    -> AND (pedido.status = 'A' OR pedido.status = 'F' OR pedido.status = 'R');
+
+10- SELECT * FROM pedido WHERE NOT status IN ('F', 'R', 'C');
+
+11- ALTER TABLE produto ADD COLUMN preco_desconto DECIMAL(8,2);
+
+12- ALTER TABLE cliente ADD COLUMN email VARCHAR(100);
+
+13- ALTER TABLE cliente ADD PRIMARY KEY(cpf);
+
+14- ALTER TABLE item_pedido ADD PRIMARY KEY(numero, codigo);
