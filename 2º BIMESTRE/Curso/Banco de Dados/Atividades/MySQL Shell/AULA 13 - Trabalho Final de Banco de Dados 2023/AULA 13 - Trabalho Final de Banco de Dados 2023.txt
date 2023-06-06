@@ -1,10 +1,11 @@
 CREATE DATABASE controle_trafego_aereo
 USE controle_trafego_aereo
 
+----- TABELAS -----
 CREATE TABLE pessoa(
     -> cpf VARCHAR(14) NOT NULL,
     -> nome VARCHAR(45),
-    -> telefone VARCHAR(14),
+    -> telefone VARCHAR(19),
     -> PRIMARY KEY(cpf));
 
 CREATE TABLE fiscal_patio (
@@ -61,7 +62,7 @@ CREATE TABLE incidente(
     -> FOREIGN KEY(plano_voo_id) REFERENCES plano_voo(id));
 
 CREATE TABLE aeroporto (
-    -> nome VARCHAR(45) NOT NULL,
+    -> nome VARCHAR(100) NOT NULL,
     -> endereco VARCHAR(45),
     -> capacidade INT(10),
     -> quantidade_pontes INT(5),
@@ -90,13 +91,174 @@ CREATE TABLE companhia_aerea (
     -> PRIMARY KEY(cnpj));
 
 
+
+----- DADOS (APENAS PARA O COMMAND LINE) -----
+INSERT INTO pessoa (cpf, nome, telefone)
+VALUES
+    ('111.111.111-11', 'João Silva', '(11) 1111-1111'),
+    ('222.222.222-22', 'Maria Santos', '(22) 2222-2222'),
+    ('333.333.333-33', 'Pedro Oliveira', '(33) 3333-3333'),
+    ('444.444.444-44', 'Ana Pereira', '(44) 4444-4444'),
+    ('555.555.555-55', 'Carlos Ferreira', '(55) 5555-5555'),
+    ('666.666.666-66', 'Laura Almeida', '(66) 6666-6666'),
+    ('777.777.777-77', 'José Rodrigues', '(77) 7777-7777'),
+    ('888.888.888-88', 'Mariana Costa', '(88) 8888-8888'),
+    ('999.999.999-99', 'Gabriel Souza', '(99) 9999-9999'),
+    ('000.000.000-00', 'Camila Santos', '(00) 0000-0000');
+
+INSERT INTO fiscal_patio (cpf, area_atuacao, disponibilidade)
+VALUES
+    ('111.111.111-11', 'Pátio A', TRUE),
+    ('222.222.222-22', 'Pátio B', FALSE),
+    ('333.333.333-33', 'Pátio C', TRUE),
+    ('444.444.444-44', 'Pátio A', TRUE),
+    ('555.555.555-55', 'Pátio B', FALSE),
+    ('666.666.666-66', 'Pátio C', TRUE),
+    ('777.777.777-77', 'Pátio A', TRUE),
+    ('888.888.888-88', 'Pátio B', FALSE),
+    ('999.999.999-99', 'Pátio C', TRUE),
+    ('000.000.000-00', 'Pátio A', TRUE);
+
+INSERT INTO operador_aereo (cpf, turno, salario, portoes_servico)
+VALUES
+    ('111.111.111-11', 'Manhã', 3000.00, 'Portões 1, 2, 3'),
+    ('222.222.222-22', 'Tarde', 3500.00, 'Portões 4, 5, 6'),
+    ('333.333.333-33', 'Noite', 3200.00, 'Portões 7, 8, 9'),
+    ('444.444.444-44', 'Manhã', 2800.00, 'Portões 1, 2, 3'),
+    ('555.555.555-55', 'Tarde', 3100.00, 'Portões 4, 5, 6'),
+    ('666.666.666-66', 'Noite', 3400.00, 'Portões 7, 8, 9'),
+    ('777.777.777-77', 'Manhã', 2900.00, 'Portões 1, 2, 3'),
+    ('888.888.888-88', 'Tarde', 3200.00, 'Portões 4, 5, 6'),
+    ('999.999.999-99', 'Noite', 3300.00, 'Portões 7, 8, 9'),
+    ('000.000.000-00', 'Manhã', 3000.00, 'Portões 1, 2, 3');
+
+INSERT INTO controlador (cpf, turno)
+VALUES
+    ('111.111.111-11', 'Manhã'),
+    ('222.222.222-22', 'Tarde'),
+    ('333.333.333-33', 'Noite'),
+    ('444.444.444-44', 'Manhã'),
+    ('555.555.555-55', 'Tarde'),
+    ('666.666.666-66', 'Noite'),
+    ('777.777.777-77', 'Manhã'),
+    ('888.888.888-88', 'Tarde'),
+    ('999.999.999-99', 'Noite'),
+    ('000.000.000-00', 'Manhã');
+
+INSERT INTO piloto (cpf, licenca, disponibilidade)
+VALUES
+    ('111.111.111-11', 'Licença A', TRUE),
+    ('222.222.222-22', 'Licença B', FALSE),
+    ('333.333.333-33', 'Licença C', TRUE),
+    ('444.444.444-44', 'Licença A', TRUE),
+    ('555.555.555-55', 'Licença B', FALSE),
+    ('666.666.666-66', 'Licença C', TRUE),
+    ('777.777.777-77', 'Licença A', TRUE),
+    ('888.888.888-88', 'Licença B', FALSE),
+    ('999.999.999-99', 'Licença C', TRUE),
+    ('000.000.000-00', 'Licença A', TRUE);
+
+INSERT INTO aeronave (matricula, tipo, quantidade_lugares, potencia_motor)
+VALUES
+    (1, 'Boeing 737', 150, 10000.00),
+    (2, 'Airbus A320', 180, 9500.00),
+    (3, 'Embraer E190', 100, 8000.00),
+    (4, 'Boeing 777', 300, 15000.00),
+    (5, 'Airbus A330', 250, 12000.00),
+    (6, 'Embraer E195', 110, 8200.00),
+    (7, 'Boeing 747', 400, 18000.00),
+    (8, 'Airbus A380', 500, 20000.00),
+    (9, 'Embraer E175', 90, 7800.00),
+    (10, 'Boeing 767', 280, 14000.00);
+
+INSERT INTO plano_voo (id, destino, horario_chegada, origem, horario_partida, aeronave_matricula)
+VALUES
+    (1, 'Rio de Janeiro', '2023-06-06 10:00:00', 'São Paulo', '2023-06-06 09:00:00', 1),
+    (2, 'Brasília', '2023-06-06 14:30:00', 'São Paulo', '2023-06-06 13:00:00', 2),
+    (3, 'Salvador', '2023-06-06 16:45:00', 'Rio de Janeiro', '2023-06-06 15:30:00', 3),
+    (4, 'Fortaleza', '2023-06-06 20:15:00', 'São Paulo', '2023-06-06 18:45:00', 4),
+    (5, 'Recife', '2023-06-06 11:30:00', 'Salvador', '2023-06-06 10:00:00', 5),
+    (6, 'Porto Alegre', '2023-06-06 19:00:00', 'São Paulo', '2023-06-06 17:30:00', 6),
+    (7, 'Curitiba', '2023-06-06 13:45:00', 'São Paulo', '2023-06-06 12:30:00', 7),
+    (8, 'Manaus', '2023-06-06 22:30:00', 'São Paulo', '2023-06-06 20:45:00', 8),
+    (9, 'Belém', '2023-06-06 23:15:00', 'São Paulo', '2023-06-06 21:45:00', 9),
+    (10, 'Natal', '2023-06-06 18:30:00', 'Fortaleza', '2023-06-06 16:45:00', 10);
+
+INSERT INTO incidente (id, descricao, grau_perigo, plano_voo_id)
+VALUES
+    (1, 'Problema mecânico durante o voo', 'Médio', 1),
+    (2, 'Perda de comunicação com a torre de controle', 'Alto', 2),
+    (3, 'Aterrisagem de emergência devido a mau tempo', 'Alto', 3),
+    (4, 'Colisão com pássaro durante o voo', 'Baixo', 4),
+    (5, 'Voo desviado para outro aeroporto devido a condições meteorológicas', 'Médio', 5),
+    (6, 'Incidente com passageiro indisciplinado', 'Baixo', 6),
+    (7, 'Problema no sistema de navegação', 'Médio', 7),
+    (8, 'Fumaça na cabine durante o voo', 'Alto', 8),
+    (9, 'Despressurização da aeronave', 'Alto', 9),
+    (10, 'Problema no trem de pouso durante o pouso', 'Médio', 10);
+
+INSERT INTO aeroporto (nome, endereco, capacidade, quantidade_pontes, torre_controle)
+VALUES
+    ('Aeroporto Internacional de São Paulo - Guarulhos', 'São Paulo, SP', 500000, 50, 'Torre Sul'),
+    ('Aeroporto Santos Dumont', 'Rio de Janeiro, RJ', 250000, 30, 'Torre Leste'),
+    ('Aeroporto de Brasília', 'Brasília, DF', 300000, 35, 'Torre Central'),
+    ('Aeroporto de Salvador', 'Salvador, BA', 200000, 25, 'Torre Norte'),
+    ('Aeroporto Internacional de Congonhas', 'São Paulo, SP', 400000, 40, 'Torre Sul'),
+    ('Aeroporto Internacional do Rio de Janeiro - Galeão', 'Rio de Janeiro, RJ', 350000, 35, 'Torre Oeste'),
+    ('Aeroporto de Fortaleza', 'Fortaleza, CE', 180000, 20, 'Torre Norte'),
+    ('Aeroporto de Recife', 'Recife, PE', 220000, 25, 'Torre Leste'),
+    ('Aeroporto Internacional de Porto Alegre', 'Porto Alegre, RS', 180000, 20, 'Torre Sul'),
+    ('Aeroporto de Curitiba', 'Curitiba, PR', 200000, 20, 'Torre Central');
+
+INSERT INTO centro_controle_area (id, endereco, quantidade_controladores)
+VALUES
+    (1, 'São Paulo, SP', 100),
+    (2, 'Rio de Janeiro, RJ', 80),
+    (3, 'Brasília, DF', 90),
+    (4, 'Salvador, BA', 70),
+    (5, 'Fortaleza, CE', 60),
+    (6, 'Recife, PE', 50),
+    (7, 'Porto Alegre, RS', 40),
+    (8, 'Curitiba, PR', 40),
+    (9, 'Manaus, AM', 30),
+    (10, 'Belém, PA', 30);
+
+INSERT INTO setor (id, area_espaco_aereo, tipo, centro_controle_area_id)
+VALUES
+    (1, 100.0, 'Doméstico', 1),
+    (2, 80.0, 'Doméstico', 2),
+    (3, 70.0, 'Doméstico', 3),
+    (4, 60.0, 'Doméstico', 4),
+    (5, 50.0, 'Doméstico', 5),
+    (6, 40.0, 'Doméstico', 6),
+    (7, 30.0, 'Doméstico', 7),
+    (8, 30.0, 'Doméstico', 8),
+    (9, 20.0, 'Internacional', 9),
+    (10, 20.0, 'Internacional', 10);
+
+INSERT INTO companhia_aerea (cnpj, nome, quantidade_avioes, quantidade_pilotos)
+VALUES
+    ('11111111111111', 'Gol Linhas Aéreas', 100, 200),
+    ('22222222222222', 'LATAM Airlines', 150, 250),
+    ('33333333333333', 'Azul Linhas Aéreas', 80, 150),
+    ('44444444444444', 'Avianca Brasil', 50, 100),
+    ('55555555555555', 'TAP Air Portugal', 30, 50),
+    ('66666666666666', 'American Airlines', 70, 120),
+    ('77777777777777', 'British Airways', 40, 80),
+    ('88888888888888', 'Air France', 60, 100),
+    ('99999999999999', 'Emirates', 20, 40),
+    ('00000000000000', 'Qatar Airways', 25, 50);
+
+
+
+
 1- SELECT * FROM aeronave WHERE matricula=1;
-2- SELECT * FROM pessoa WHERE cpf='00000000000000';
+2- SELECT * FROM pessoa WHERE cpf='000.000.000-00';
 3- SELECT * FROM piloto WHERE disponibilidade=0;
-4- SELECT quantidade_controladores
-    -> FROM setor
-    -> JOIN centro_controle_area ON setor.centro_controle_area_id = centro_controle_area.id
-    -> WHERE setor.id=1;
+4- SELECT SUM(centro_controle_area.quantidade_controladores) as quantidade_controladores_total
+    -> FROM centro_controle_area
+    -> JOIN setor ON setor.centro_controle_area_id = centro_controle_area.id
+    -> WHERE setor.tipo = 'Doméstico';
 5- SELECT descricao
     -> FROM incidente
     -> JOIN plano_voo ON incidente.plano_voo_id = plano_voo.id
@@ -104,8 +266,14 @@ CREATE TABLE companhia_aerea (
 6- SELECT * FROM aeronave WHERE matricula=1;
 7- SELECT * FROM plano_voo WHERE id=1;
 8- SELECT * FROM fiscal_patio WHERE disponibilidade=1;
-9- SELECT * FROM plano_voo WHERE horario_chegada='9999-12-31 23:59:59';
-10- SELECT * FROM plano_voo WHERE destino='destino';
-11- SELECT plano_voo.id, COUNT(incidente.id) as quantidade_incidente
+9- SELECT * FROM plano_voo WHERE horario_chegada='2023-06-06 19:00:00';
+10- SELECT * FROM plano_voo WHERE destino='Fortaleza';
+11-  SELECT *
     -> FROM plano_voo
-    -> JOIN incidente ON plano_voo.id = incidente.id;
+    -> WHERE id = (
+    ->     SELECT plano_voo_id
+    ->     FROM incidente
+    ->     GROUP BY plano_voo_id
+    ->     ORDER BY COUNT(*) DESC
+    ->     LIMIT 1
+    -> );
