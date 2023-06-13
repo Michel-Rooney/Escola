@@ -1,0 +1,118 @@
+# **CAMADA DE TRANSPORTE**
+- Camada de transporte fornece comunicação lógica, e não física, entre processos de aplicação
+- **Propósito:** Permitir que aplicativos em dispositivos se comuniquem
+- **Comunicação Lógica:** Significa que a comunicação ocorre com base em identificadores abstratos, como endereços IP, em vez de depender de conexões físicas diretas.
+- A ampliação da entrega hospedeiro a hospedeiro para entrega processo a processo é denominada **multiplexação/demultiplexação** de camada de transporte.
+- Tamanho da janela de comunicação é uma técnica utilizada para controlar o fluxo de dados durante a transmissão, permitindo o envio de múltiplos segmentos antes de receber confirmação, visando otimizar a eficiência e a confiabilidade da comunicação.
+- Divisão de dados recebidos de um aplicativo em segmentos;
+- Adição de um cabeçalho para identificar e gerenciar cada segmento;
+- Uso da informação do cabeçalho para reagrupar os segmentos de volta nos dados do aplicativo;
+- Transmitir os dados agrupados para o aplicativo correto.
+
+
+##  **Relação entre as camadas de transporte e de rede**
+A camada de transporte lida com a comunicação fim a fim entre processos de aplicação, enquanto a camada de rede lida com o roteamento e encaminhamento dos pacotes entre redes diferentes. A camada de transporte está mais próxima das aplicações e lida com o controle de fluxo e confiabilidade da transmissão. Já a camada de rede está mais próxima da infraestrutura de rede e trata do endereçamento e roteamento dos pacotes.
+
+## **UDP e TCP**
+Em resumo, o TCP oferece entrega confiável e mecanismos de controle, garantindo a integridade e a ordem dos dados transmitidos, enquanto o UDP é mais leve, sem garantia de entrega confiável, mas com menor sobrecarga, adequado para aplicações em tempo real e onde a velocidade é prioritária sobre a confiabilidade.
+
+### **UDP (User Datagram Protocol):**
+
+| Características      | Descrição                                                                                                 |
+| -------------------- | --------------------------------------------------------------------------------------------------------- |
+| Confiabilidade       | Não oferece garantia de entrega confiável de dados.                                                       |
+| Controle de Fluxo    | Não possui mecanismos de controle de fluxo.                                                               |
+| Orientação à Conexão | É um protocolo sem conexão. Cada pacote é enviado de forma independente.                                  |
+| Overhead             | Possui menor sobrecarga e menor overhead em comparação com o TCP.                                         |
+| Aplicações comuns    | Transmissão de áudio e vídeo em tempo real, jogos online, VoIP (Voz sobre IP) e DNS (Domain Name System). |
+
+### **TCP (Transmission Control Protocol):**
+  - Uma conexão TCP provê um serviço full-duplex.
+
+  | Características      | Descrição                                                                                                                      |
+  | -------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+  | Confiabilidade       | Oferece garantia de entrega confiável de dados, garantindo integridade e ordem dos pacotes.                                    |
+  | Controle de Fluxo    | Possui mecanismos de controle de fluxo para evitar sobrecarga da rede e congestionamento.                                      |
+  | Orientação à Conexão | É um protocolo orientado à conexão. Estabelece uma conexão antes da transmissão de dados.                                      |
+  | Overhead             | Possui maior sobrecarga e maior overhead em comparação com o UDP, devido aos mecanismos de controle.                           |
+  | Aplicações comuns    | Transferência de arquivos, navegação na web, e-mails, streaming de mídia e aplicações que requerem entrega confiável de dados. |
+
+## **Handshake Triplo**
+O Handshake Triplo é um processo utilizado no protocolo TCP (Transmission Control Protocol) para estabelecer uma conexão confiável entre um cliente e um servidor. O objetivo desse processo é garantir que o dispositivo destino esteja presente na rede, verificando se possui um serviço ativo e está aceitando solicitações na porta específica que o cliente pretende utilizar para a sessão de comunicação.
+
+**O Handshake Triplo consiste nas seguintes etapas:**
+1. Cliente envia uma solicitação de conexão (SYN) para o servidor, especificando a porta de destino que deseja utilizar.
+2. Servidor recebe a solicitação e responde com um pacote de confirmação de conexão (SYN-ACK), indicando que está pronto para estabelecer a sessão. O pacote também contém um número de sequência aleatório.
+3. Cliente recebe o pacote SYN-ACK e envia uma confirmação (ACK) de recebimento para o servidor. Esse pacote ACK contém o número de sequência do servidor mais um, para sincronizar a sequência de números.
+Com esse processo de Handshake Triplo, o cliente e o servidor estabelecem uma conexão confiável e sincronizada. O servidor verifica se o cliente pode acessar a porta especificada e se está disposto a receber dados da sessão. O cliente confirma que recebeu a resposta do servidor e está pronto para a comunicação.
+
+Essa troca de informações mútua durante o Handshake Triplo garante a integridade e a confiabilidade da conexão TCP, permitindo que a comunicação entre o cliente e o servidor ocorra de forma segura e eficiente.
+        
+<br><br><br>
+ 
+# **CAMADA DE APLICAÇÃO**
+- A comunicação de uma aplicação de rede ocorre entre sistemas finais na camada de aplicação.
+
+- A camada de Aplicação é a camada mais alta no modelo de referência TCP/IP e é responsável por fornecer serviços de rede aos aplicativos e usuários finais. Ela é responsável por facilitar a comunicação entre os processos de aplicação em diferentes dispositivos conectados em uma rede.
+
+1. **Interface com os aplicativos:** A camada de Aplicação fornece uma interface para que os aplicativos possam interagir com os serviços de rede. Isso permite que os aplicativos acessem recursos de rede, como enviar e receber dados, estabelecer conexões e comunicar-se com outros aplicativos em dispositivos remotos.
+
+2. **Protocolos de aplicação:** A camada de Aplicação inclui uma variedade de protocolos que permitem diferentes tipos de serviços de rede. Alguns exemplos comuns de protocolos de aplicação são HTTP (Hypertext Transfer Protocol) para a comunicação na web, SMTP (Simple Mail Transfer Protocol) para o envio de e-mails e FTP (File Transfer Protocol) para a transferência de arquivos.
+
+3. **Funções de alto nível:** Além de fornecer serviços de rede, a camada de Aplicação também pode oferecer funcionalidades de alto nível, como autenticação, criptografia, compressão de dados e gerenciamento de sessões. Essas funções adicionais garantem a segurança, eficiência e confiabilidade da comunicação entre os aplicativos.
+
+4. **Compatibilidade com diferentes tipos de aplicativos:** A camada de Aplicação é projetada para ser flexível e compatível com diversos tipos de aplicativos. Ela permite que aplicativos de diferentes naturezas, como navegadores web, clientes de e-mail, aplicativos de mensagens instantâneas e serviços de streaming de vídeo, se comuniquem de forma consistente e interoperável em uma rede.
+
+Em resumo, a camada de Aplicação é responsável por fornecer serviços de rede aos aplicativos, permitindo a comunicação e a interação entre processos de aplicação em diferentes dispositivos. Ela utiliza protocolos de aplicação para oferecer uma variedade de serviços de rede e também pode incluir funções de alto nível para garantir segurança e eficiência na comunicação.
+
+## **Arquiteturas:**
+- **Arquitetura de rede:** É fixa e provê um conjunto específico de serviços.
+- **Arquitetura da aplicação:** É projetada pelo programador e determina como a aplicação é organizada nos vários sistemas finais.
+- **Arquitetura cliente-servidor:** Há um hospedeiro sempre em funcionamento, denominado servidor, que atende a requisições de muitos outros hospedeiros, denominados clientes.
+- **Arquitetura P2P:** Utiliza a comunicação direta entre duplas de hospedeiros conectados alternadamente, denominados pares. Possui autoescalabilidade.
+  - As futuras aplicações P2P estão diante de três principais desafios:
+      1. **ISP Amigável:** Desafio de obter cooperação dos ISPs para o tráfego P2P.
+      2. **Segurança:** Desafio de garantir a proteção contra ataques e manipulação de dados nas aplicações P2P.
+      3. **Incentivos:** Desafio de criar mecanismos eficazes para incentivar a participação dos usuários na rede P2P.
+
+
+## **Serviços de transporte disponíveis para aplicações**
+- **Transferência confiável de dados:** Garantia de transmissão precisa e livre de erros.
+- **Vazão:** Medida da taxa de transferência de dados em uma rede.
+- **Temporização:** Gerenciamento do tempo de transmissão e recebimento de dados.
+- **Segurança:** Medidas para proteger dados contra acesso não autorizado.
+
+
+## **Conexões persistentes e não persistentes**
+Quando a interação cliente-servidor acontece por meio de conexão TCP, o programador da aplicação precisa tomar uma importante decisão:
+- **Conexões não persistentes:** Cada par de requisição/resposta deve ser enviado por uma conexão TCP distinta.
+- **Conexões persistentes:** Todas as requisições e suas resposta devem ser enviadas por uma mesma conexão TCP.
+
+## **Caches web**
+Caches web são mecanismos de armazenamento temporário localizados em servidores intermediários que armazenam cópias de páginas da web. Eles ajudam a melhorar o desempenho e a eficiência das solicitações de páginas web, reduzindo o tempo de resposta e a carga nos servidores originais, fornecendo conteúdo em cache para os usuários de forma mais rápida.
+
+## **Cookies**
+- Cookies são pequenos arquivos de texto que são armazenados no navegador de um usuário quando ele visita um site. Eles contêm informações sobre a interação do usuário com o site, como preferências, histórico de navegação, dados de login e outras informações relevantes. Os cookies são usados para personalizar a experiência do usuário, rastrear atividades, lembrar preferências e fornecer recursos específicos.
+- Ele colecta os seus dados e vende é por isso que sites são grátis '-'
+
+## **FTP:**
+- FTP transporta arquivos entre sistemas de arquivo local e remoto:
+
+- **Comandos:**
+  - **USER username:** usado para enviar identificação do usuário ao servidor.
+  - **PASS password:** usado para enviar a senha do usuário ao servidor.
+  - **LIST:** usado para pedir ao servidor que envie uma lista com todos os arquivos existentes no atual diretório remoto.
+  - **RETR filename:** usado para extrair um arquivo do diretório atual do hospedeiro remoto.
+  - **STOR filename:** usado para armazenar um arquivo no diretório atual do hospedeiro remoto.
+
+## **SMTP:**
+- O SMTP transfere mensagens de servidores de correio remetentes para servidores de correio destinatários.
+
+## **DNS:**
+- O DNS é (1) um banco de dados distribuído executado em uma hierarquia de servidores de DNS, e (2) um protocolo de camada de aplicação que permite que hospedeiros consultem o banco de dados distribuído.
+- Apelidos (aliasing) de hospedeiro.
+- Apelidos de servidor de correio.
+- Distribuição de carga.
+
+## **P2P:**
+- Na distribuição de arquivos P2P, cada par pode redistribuir qualquer parte do arquivo recebido para outros pares, auxiliando, assim, o servidor no processo de distribuição.
