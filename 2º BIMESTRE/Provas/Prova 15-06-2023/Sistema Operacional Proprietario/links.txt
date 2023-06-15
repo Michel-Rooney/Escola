@@ -1,0 +1,4 @@
+https://support.microsoft.com/pt-br/windows/ficar-protegido-com-a-seguran%C3%A7a-do-windows-2ae0363d-0ada-c064-8b56-6a39afb6a963
+https://support.microsoft.com/pt-br/windows/ativar-ou-desativar-o-microsoft-defender-firewall-ec0844f7-aebd-0583-67fe-601ecf5d774f
+https://learn.microsoft.com/pt-br/windows/security/operating-system-security/network-security/windows-firewall/create-an-inbound-port-rule
+https://support.microsoft.com/pt-br/windows/backup-e-restaura%C3%A7%C3%A3o-no-windows-352091d2-bb9d-3ea3-ed18-52ef2b88cbef
