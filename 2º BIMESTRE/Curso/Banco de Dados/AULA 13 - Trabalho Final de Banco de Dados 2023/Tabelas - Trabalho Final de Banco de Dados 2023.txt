@@ -1,0 +1,88 @@
+----- TABELAS -----
+CREATE TABLE pessoa(
+    -> cpf VARCHAR(14) NOT NULL,
+    -> nome VARCHAR(45),
+    -> telefone VARCHAR(19),
+    -> PRIMARY KEY(cpf));
+
+CREATE TABLE fiscal_patio (
+    -> cpf VARCHAR(14) NOT NULL,
+    -> area_atuacao VARCHAR(20),
+    -> disponibilidade BOOLEAN;,
+    -> PRIMARY KEY(cpf),
+    -> FOREIGN KEY(cpf) REFERENCES pessoa(cpf));
+
+CREATE TABLE operador_aereo (
+    -> cpf VARCHAR(14) NOT NULL,
+    -> turno VARCHAR(20),
+    -> salario DECIMAL(10,2),
+    -> portoes_servico VARCHAR(20),
+    -> PRIMARY KEY(cpf),
+    -> FOREIGN KEY(cpf) REFERENCES pessoa(cpf));
+
+CREATE TABLE controlador (
+    -> cpf VARCHAR(14) NOT NULL,
+    -> turno VARCHAR(20),
+    -> PRIMARY KEY(cpf),
+    -> FOREIGN KEY(cpf) REFERENCES pessoa(cpf));
+
+CREATE TABLE piloto (
+    -> cpf VARCHAR(14) NOT NULL,
+    -> licenca VARCHAR(20),
+    -> disponibilidade BOOLEAN,
+    -> PRIMARY KEY(cpf),
+    -> FOREIGN KEY(cpf) REFERENCES pessoa(cpf));
+
+CREATE TABLE aeronave (
+    -> matricula INT(10) NOT NULL AUTO_INCREMENT,
+    -> tipo VARCHAR(45),
+    -> quantidade_lugares INT(4),
+    -> potencia_motor DECIMAL(10,2),
+    -> PRIMARY KEY(matricula));
+
+CREATE TABLE plano_voo (
+    -> id INT(10) NOT NULL AUTO_INCREMENT,
+    -> destino VARCHAR(45),
+    -> horario_chegada DATETIME,
+    -> origem VARCHAR(45),
+    -> horario_partida DATETIME,
+    -> aeronave_matricula INT(10),
+    -> PRIMARY KEY(id),
+    -> FOREIGN KEY(aeronave_matricula) REFERENCES Aeronave(matricula));
+
+CREATE TABLE incidente(
+    -> id INT(10) NOT NULL AUTO_INCREMENT,
+    -> descricao TEXT,
+    -> grau_perigo VARCHAR(20),
+    -> plano_voo_id INT(10),
+    -> PRIMARY KEY(id),
+    -> FOREIGN KEY(plano_voo_id) REFERENCES plano_voo(id));
+
+CREATE TABLE aeroporto (
+    -> nome VARCHAR(100) NOT NULL,
+    -> endereco VARCHAR(45),
+    -> capacidade INT(10),
+    -> quantidade_pontes INT(5),
+    -> torre_controle VARCHAR(45),
+    -> PRIMARY KEY(nome));
+
+CREATE TABLE centro_controle_area (
+    -> id INT(10) NOT NULL AUTO_INCREMENT,
+    -> endereco VARCHAR(45),
+    -> quantidade_controladores INT(5),
+    -> PRIMARY KEY(id));
+
+CREATE TABLE setor (
+    -> id INT(10) NOT NULL AUTO_INCREMENT,
+    -> area_espaco_aereo DECIMAL(10,3),
+    -> tipo VARCHAR(45),
+    -> centro_controle_area_id INT(10),
+    -> PRIMARY KEY(id),
+    -> FOREIGN KEY(centro_controle_area_id) REFERENCES centro_controle_area(id));
+
+CREATE TABLE companhia_aerea (
+    -> cnpj VARCHAR(18) NOT NULL,
+    -> nome VARCHAR(45),
+    -> quantidade_avioes INT(10),
+    -> quantidade_pilotos INT(10),
+    -> PRIMARY KEY(cnpj));
