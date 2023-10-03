@@ -1,0 +1,3 @@
+Catalizadores:
+	Os Catalizadores são subtãncias que diminuem a energia necessária para ativição, aumentando, consequentemente, a velocidade da reação. Como pode ver na imagem, há 2 morros, um maior e outro menor, esse morro maior é sem a atulização de um catalizador, já o menor é com a atulização de um catalizador, ou seja, diminuiu o esforço necessario para que ocorrosse a reção.
+	Exemplos: Um bom exemplo é a ezimas biologicas como a Amilaze Salivar, que ajuda na digestão do alimento, começando o processo de digestão do alimento já na boca
