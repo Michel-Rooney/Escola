@@ -1,0 +1,17 @@
+
+# Introduzir a Engenharia de Segurança
+- Crucial para a proteção de informações e sistemas
+- Desenvolver sistemas robustos e resilientes
+- Precisa resistir a diversas ameaças e ataques
+- Proteger os ativos de informação
+
+Ativos de informação: Dados sensíveis dos usuários ou da empresa
+
+
+- Manter a Integridade, confidencialidade e disponibilidade
+- Está ligada a gestão de risco
+  - Antencipar futuros problemas, vunerabilidades
+
+
+- Precis continuamente ser atualizada
+- Processo continuo de adptação e aprendizado
